@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jessica's Game</title>
+	</head>
+	<body>
+
+		<h1>This is Jessica's Age Game</h1>
+		<!-- this would be where I add a link "button" to play with a hover -->
+		<p><a>Do you want to play?</a></p>
+		<script>
+		//this is the script for the guessing game
+		//this game is to get you to guess my age
+
+			var answer = prompt ("How old do you think I am?");
+			var jessicaAge = 43;
+
+			if (answer < jessicaAge) {
+				answer = "Love it, but no";
+			} else if (answer > jessicaAge) {
+				answer = "What?!? you think I am how old! I don't think so."
+			} else {answer = "Yup, you nailed it."
+		}
+
+document.write (answer);
+		</script>
+
+		<p>I hope had fun playing the game.</p>
+	</body>
+</html>

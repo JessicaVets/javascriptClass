@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jessica Vets</title>
+	</head>
+		<body>
+			<header>
+				<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/5/005/05c/3a3/26b7a68.jpg" align="left"/>
+				<p style="font-family:Arial; font-size:16px"><strong>Jessica Vets Profile Page</strong></p>
+			</header>
+
+			<section>
+				<div style="font-family:Arial; font-size:12px">
+				<p>I hold an MBA in Business Administration, which has, with my background in Graphic Design and Photography lead to positions in Executive Leadership, Business Administration and Marketing; I combine the creative knowledge from my design degree with the analytical learnings from my MBA to have a unique perspective in business. I am a 43 year old female and I live in Seattle.</p>
+				<p>I am taking this class in order to build my digital skills and be able to better communicate in an online environment. My hope is that this will open up more managerial level positions in tech, by combining my existing people skills along with these new techinical skills.
+				</p>
+			</div>
+			</section>
+
+			<section>
+			<div style="font-family:Arial; font-size:12px">
+				<p colspan="3"><span style="font-family:Arial; font-size:14px"><strong>A little about Jessica</strong></p>
+					<ol>
+						<li><strong>Jobs</strong></li>
+							<ul>
+								<li>Fremont Chamber of Commerce</li>
+								<li>Seattle Farmers Market Assn</li>
+								<li>Magnolia Hi-Fi</li>
+							</ul>
+						<li><strong>Interests</strong></li>
+							<ul>
+								<li>Walking</li>
+								<li>Swimming</li>
+								<td>Reading</td>
+							</ul>
+					</ol>
+				</div>
+			</section>
+
+			<section>
+				<div style="font-family:Arial; font-size:12px">
+					<h3><span style="font-family:Arial; font-size:14px"><strong>This is Jessica's Age Game</strong></span></h3>
+					<!-- this would be where I add a link "button" to play with a hover -->
+					<p><a>Do you want to play?</a></p>
+						<script>
+							//this is the script for the guessing game
+							//this game is to get you to guess my age
+
+							var answer = prompt ("How old do you think I am?");
+							var jessicaAge = 43;
+
+							if (answer < jessicaAge) {
+								response = "Love it, but no";
+							} else if (answer > jessicaAge) {
+								response = "What?!? you think I am how old! I don't think so."
+							} else {response = "Yup, you nailed it."
+							}
+
+							// need to add a button here so that the script does not execute without clikcing -- I do not want the game to come up
+
+							document.write (response);
+						</script>
+
+					<p>I hope had fun playing the game.</p>
+				</div>
+			</section>
+
+			<footer><p style="font-family:Arial; font-size:9px">Thank you for visiting Jessica's Page, more info to come soon.</p></footer>
+		</body>
+</html>
