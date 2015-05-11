@@ -2,11 +2,36 @@
 <html>
 	<head>
 		<title>Jessica Vets</title>
+		<style type="text/css">
+body {
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	color: black;
+	margin: 10px auto 10px 10px;
+	max-width: 500px;
+	min-width: 500px;
+	padding: 5px;
+}
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+img {
+	padding: 10px;
+	border-top: 2px double black;
+	border-bottom: 2px double black;
+	background: #FF9900;
+
+}
+		</style>
+
 	</head>
+
 		<body>
 			<header>
 				<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/5/005/05c/3a3/26b7a68.jpg" align="left"/>
-				<p style="font-family:Arial; font-size:16px"><strong>Jessica Vets Profile Page</strong></p>
+				<h1>Jessica Vets Profile Page</p>
+
 			</header>
 
 			<section>
@@ -45,19 +70,16 @@
 						<script>
 							//this is the script for the guessing game
 							//this game is to get you to guess my age
-							// new note
 
 							var answer = prompt ("How old do you think I am?");
 							var jessicaAge = 43;
 
 							if (answer < jessicaAge) {
-								response = "Love it, but no";
+								response = "Love it, but no I am not " + answer;
 							} else if (answer > jessicaAge) {
-								response = "What?!? you think I am how old! I don't think so."
-							} else {response = "Yup, you nailed it."
+								response = "What?!? you think I am  " + answer + " ! I don't think so.";
+							} else {response = "Yup, you nailed it. I am " + jessicaAge;
 							}
-
-							// need to add a button here so that the script does not execute without clikcing -- I do not want the game to come up
 
 							document.write (response);
 						</script>
