@@ -21,7 +21,7 @@ img {
 	border-top: 2px double black;
 	border-bottom: 2px double black;
 	background: #FF9900;
-
+	horizontal-align: left;
 }
 		</style>
 
@@ -29,7 +29,7 @@ img {
 
 		<body>
 			<header>
-				<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/5/005/05c/3a3/26b7a68.jpg" align="left"/>
+				<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/5/005/05c/3a3/26b7a68.jpg"/>
 				<h1>Jessica Vets Profile Page</p>
 
 			</header>
@@ -76,12 +76,20 @@ img {
 
 							if (answer < jessicaAge) {
 								response = "Love it, but no I am not " + answer;
+								output(response);
 							} else if (answer > jessicaAge) {
 								response = "What?!? you think I am  " + answer + " ! I don't think so.";
+								output(response);
 							} else {response = "Yup, you nailed it. I am " + jessicaAge;
+							output(response);
 							}
 
-							document.write (response);
+							//this is my new function
+
+							function output(words) {
+								document.write (words);
+							}
+
 						</script>
 
 					<p>I hope had fun playing the game.</p>
