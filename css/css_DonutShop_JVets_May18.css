@@ -13,19 +13,26 @@ body {
 table {
   border-top: 1px black solid;
   border-bottom: 1px black solid;
+  border-collapse: collapse;
+  width: 100%;
   text-align: left;
   font-weight: normal;
   background-color: #EBDAA4;
 }
+tr {
+  border-bottom: 1px solid
+}
+
+#tHead {
+  font-family: cursive;
+}
+.data {
+  font-size: 24px;
+}
 td {
   width: 250px;
   margin-left: 10px;
-  text-align: center;
 }
-td #hd {
-  text-align: left;
-}
-
 th {
   font-weight: bold;
   font-size: 16px;
@@ -59,4 +66,5 @@ li {
 img {
   margin: 10px auto 10px auto;
 }
+
 

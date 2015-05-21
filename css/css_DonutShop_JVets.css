@@ -17,6 +17,12 @@ table {
   font-weight: normal;
   background-color: #EBDAA4;
 }
+.top {
+  background-color: #B09D61;
+}
+#homeButton {
+  font-family: cursive;
+}
 td {
   width: 250px;
   margin-left: 10px;
